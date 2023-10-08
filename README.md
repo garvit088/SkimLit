@@ -1,4 +1,4 @@
-![output](https://github.com/garvit088/SkimLit/assets/97309123/5ae65899-4098-4bd9-ab6a-8134d05e0841)# SkimLit
+# SkimLit
 * An NLP model to classify abstract sentences into the role they play
 * This project is the implementation of the research paper: [PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstracts](https://arxiv.org/abs/1710.06071).
 
