@@ -23,5 +23,6 @@
 ## Skimlit Tribrid Model:
 > This particular model consists of three different types of embeddings, namely: Token, Character, and Position Embeddins. For the position embedding, the abstract was disentangled into line numbers (Sequence of the sentence in the abstract) and total lines (Total sentences in the abstract).
 
+Model Architecture Used-->
 ![model](https://github.com/garvit088/SkimLit/assets/97309123/6cffe6df-d135-4785-9e66-85e90a77c0a3)
 
