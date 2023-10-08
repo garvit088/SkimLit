@@ -1,4 +1,4 @@
-# SkimLit
+![output](https://github.com/garvit088/SkimLit/assets/97309123/5ae65899-4098-4bd9-ab6a-8134d05e0841)# SkimLit
 * An NLP model to classify abstract sentences into the role they play
 * This project is the implementation of the research paper: [PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstracts](https://arxiv.org/abs/1710.06071).
 
@@ -10,3 +10,15 @@
 -----------
 
 ## Models Used: A total of 6 models were trained on the whole dataset
+![accuracy](https://github.com/garvit088/SkimLit/assets/97309123/8d0ec2b2-c926-40f8-9c99-819bac335274)
+
+* A Multinomial Naive Bayes Classifier with **74.9%** accuracy.
+* A Convolution Custom Token Embedding model gave **83.6%** accuracy.
+* A Pretrained Token Embedding (Universal Sentence Encoder) model gave **77.6%** accuracy.
+* A Convolution Custom Character Embedding model gave **72.7%** accuracy.
+* A hybrid model consisting of both Token and Character Embedding gave **77.6%** accuracy.
+* A tribrid model consisting of Token, Character, and Position Embedding gave **86.9%** accuracy.
+  
+![output](https://github.com/garvit088/SkimLit/assets/97309123/f432996b-9011-4f20-98b4-e09d5e97c2b3)
+
+-----------
