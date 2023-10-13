@@ -23,12 +23,14 @@
 ![output](https://github.com/garvit088/SkimLit/assets/97309123/f432996b-9011-4f20-98b4-e09d5e97c2b3)
 
 ## Skimlit Tribrid Model:
-> This particular model consists of three different types of embeddings, namely: Token, Character, and Position Embeddins. For the position embedding, the abstract was disentangled into line numbers (Sequence of the sentence in the abstract) and total lines (Total sentences in the abstract).
+> This particular model consists of three different types of embeddings, namely Token, Character, and Position Embeddins. For the position embedding, the abstract was disentangled into line numbers (Sequence of the sentence in the abstract) and total lines (Total sentences in the abstract).
 
 **`Model Architecture Used`-->**
 ![model](https://github.com/garvit088/SkimLit/assets/97309123/6cffe6df-d135-4785-9e66-85e90a77c0a3)
 
 ## Result:
+[Skimlit_Tribrid_saved_model](https://drive.google.com/file/d/1hvVryt6jpWNm49x3d60gUhxQlph0RGpQ/view?usp=sharing)
+
 **` How the prediction looks like`-->**
 ![result](https://github.com/garvit088/SkimLit/assets/97309123/6a5ec9dd-a7da-4dda-af18-7c577985a9c1)
 
