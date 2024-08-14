@@ -44,7 +44,7 @@ def model_prediction(abstract):
     # Split abstract lines into characters
     abstract_chars = [split_chars(sentence) for sentence in abstract_lines]
 
-    model_path = "D:\garvit\code\ml\skimlit\model5_tribrid/"
+    model_path = "https://drive.google.com/drive/folders/10KZe5gTz5bVZ68YyIQcIwWLTZBYleaD_?usp=sharing"
     loaded_model = tf.keras.models.load_model(model_path)
     test_abstract_pred_probs = loaded_model.predict(x=(test_abstract_line_numbers_one_hot,
                                                    test_abstract_total_lines_one_hot,
